@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F4C61C3E3AB9EBAD529BD45974322A259B9089D8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F4C61C3E3AB9EBAD529BD45974322A259B9089D8" : 0,
+    "BF888087162F59A7AF6CD546FD0FDF5759B012DA" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4C2FEC85-5013-4952-91D3-B0A6F158E432",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F4C61C3E3AB9EBAD529BD45974322A259B9089D8" : "code2_BFADT\/",
+    "BF888087162F59A7AF6CD546FD0FDF5759B012DA" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "drawing",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "week2\/drawing\/drawing.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nicoleyimessier\/code2_BFADT.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BF888087162F59A7AF6CD546FD0FDF5759B012DA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/WilliamEnders\/Code2-Procedurality.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F4C61C3E3AB9EBAD529BD45974322A259B9089D8"
+    }
+  ]
+}

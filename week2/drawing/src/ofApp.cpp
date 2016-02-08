@@ -14,9 +14,10 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
     ofDrawLine(0,0,ofGetWidth(),ofGetHeight());
+    ofDrawLine(0,ofGetHeight(),ofGetWidth(),0);
     ofSetColor(255, 13, 120);
     ofFill();
-    ofDrawEllipse(ofGetWidth()/2, ofGetHeight()/2, 100, 100);
+     circles(ofGetWidth(),ofGetHeight(), 100);
     
     ofPoint bob;
     bob.x = ofGetWidth()/2;
@@ -28,6 +29,18 @@ void ofApp::draw(){
 
 //--------------------------------------------------------------
 void ofApp::diamond(ofPoint center, float length, float width){
+    ofDrawLine(center.x - width/2, center.y, center.x, center.y - length/2);
+    ofDrawLine(center.x,center.y - length/2, center.x + width/2, center.y);
+    ofDrawLine(center.x + width/2, center.y, center.x, center.y + length/2);
+    ofDrawLine(center.x, center.y + length/2, center.x - width/2, center.y);
+}
+
+void ofApp::circles(float centerX, float centerY, float radius){
+   ofDrawEllipse(centerX/1.5, centerY/2, radius, radius);
+    ofDrawEllipse(centerX/2, centerY/2, radius, radius);
+    ofDrawEllipse(centerX/3, centerY/2, radius, radius);
+}
+void ofApp::draw2(ofPoint center, float length, float width){
     ofDrawLine(center.x - width/2, center.y + length/2, center.x, center.y - length/2);
     ofDrawLine(center.x,center.y - length/2, center.x + width/2, center.y + length/2);
     ofDrawLine(center.x + width/2, center.y + length/2, center.x, center.y + length);

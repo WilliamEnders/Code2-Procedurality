@@ -10,6 +10,8 @@ class ofApp : public ofBaseApp{
 		void draw();
     
     void diamond(ofPoint center, float length, float width);
+     void circles(float centerX, float centerY, float radius);
+    void draw2(ofPoint center, float length, float width);
 
 		void keyPressed(int key);
 		void keyReleased(int key);
