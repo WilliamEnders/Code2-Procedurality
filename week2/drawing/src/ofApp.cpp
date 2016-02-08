@@ -13,7 +13,7 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-    ofDrawLine(0,0,ofGetWidth(),ofGetHeight());
+    lines(1000, 100);
     ofDrawLine(0,ofGetHeight(),ofGetWidth(),0);
     ofSetColor(255, 13, 120);
     ofFill();
@@ -40,11 +40,11 @@ void ofApp::circles(float centerX, float centerY, float radius){
     ofDrawEllipse(centerX/2, centerY/2, radius, radius);
     ofDrawEllipse(centerX/3, centerY/2, radius, radius);
 }
-void ofApp::draw2(ofPoint center, float length, float width){
-    ofDrawLine(center.x - width/2, center.y + length/2, center.x, center.y - length/2);
-    ofDrawLine(center.x,center.y - length/2, center.x + width/2, center.y + length/2);
-    ofDrawLine(center.x + width/2, center.y + length/2, center.x, center.y + length);
-    ofDrawLine(center.x, center.y + length, center.x - width/2, center.y + length/2);
+void ofApp::lines(int num, int space){
+    for(int i = 0; i<num; i++){
+        ofDrawLine(0+i * space,0+i * space,ofGetWidth()+i * space,ofGetHeight()+i * space);
+        ofDrawLine(0+i * space,0+i * space,ofGetWidth()-i * space,ofGetHeight()-i * space);
+    }
 }
 
 

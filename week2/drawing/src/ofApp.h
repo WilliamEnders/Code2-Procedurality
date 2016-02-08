@@ -11,7 +11,7 @@ class ofApp : public ofBaseApp{
     
     void diamond(ofPoint center, float length, float width);
      void circles(float centerX, float centerY, float radius);
-    void draw2(ofPoint center, float length, float width);
+    void lines(int num, int space);
 
 		void keyPressed(int key);
 		void keyReleased(int key);
