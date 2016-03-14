@@ -9,7 +9,7 @@ void setup() {
 }
 
 void draw() {
-  background(255);
+ // background(255,255,255,1);
   for(int i=0;i<objects.length;i++){
     objects[i].Update();
   }

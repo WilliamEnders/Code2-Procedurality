@@ -22,6 +22,7 @@ class Ball {
     pos.x += speed.x;
     pos.y += speed.y;
     speed.y += grav;
+    noStroke();
     fill(c);
     ellipse(pos.x, pos.y, diam, diam);
     
@@ -32,6 +33,8 @@ class Ball {
     if(pos.x >= width-diam/2 || pos.x <= 0+diam/2){
       speed.x *= -1;
     }
-    
+    if(mousePressed){
+    speed.y = -3;
+  }
   }
 }

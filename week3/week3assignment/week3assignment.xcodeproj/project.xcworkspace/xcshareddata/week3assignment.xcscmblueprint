@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F4C61C3E3AB9EBAD529BD45974322A259B9089D8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F4C61C3E3AB9EBAD529BD45974322A259B9089D8" : 0,
+    "BF888087162F59A7AF6CD546FD0FDF5759B012DA" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "00B65005-58CB-464D-9E01-642963DCF42A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F4C61C3E3AB9EBAD529BD45974322A259B9089D8" : "code2_BFADT\/",
+    "BF888087162F59A7AF6CD546FD0FDF5759B012DA" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "week3assignment",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "week3\/week3assignment\/week3assignment.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nicoleyimessier\/code2_BFADT.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BF888087162F59A7AF6CD546FD0FDF5759B012DA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/WilliamEnders\/Code2-Procedurality.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F4C61C3E3AB9EBAD529BD45974322A259B9089D8"
+    }
+  ]
+}
