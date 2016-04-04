@@ -71,7 +71,12 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-   
+    /*
+    screenX = ofGetWidth()/2;
+    screenY = ofGetHeight()/2;
+    ofTranslate(screenX, screenY);
+    drawLine(30,0,1,1);
+     */
 }
 
 //--------------------------------------------------------------
